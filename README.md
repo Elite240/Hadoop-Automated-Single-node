@@ -8,19 +8,19 @@ This script provides interactive and automatic configuration and installation of
 
 What the script does
 
-1 - Automatic Installation of Java, Perl, wget
+  1 - Automatic Installation of Java, Perl, wget
 
-2 - Automatic Hadoop user creation
+  2 - Automatic Hadoop user creation
 
-3 - Adds the newly created user to the sudoers
+  3 - Adds the newly created user to the sudoers
 
-4 - Configures passwordless ssh login to the new user
+  4 - Configures passwordless ssh login to the new user
 
-5 - Installs Apache Hadoop 3.3 package 
+  5 - Installs Apache Hadoop 3.3 package 
 
-6 - Interactive configuration of hadoop 
+  6 - Interactive configuration of hadoop 
 
-7 - Prints verification information text for debugging after the configuration is done
+  7 - Prints verification information text for debugging after the configuration is done
 
 
 If you experience any bugs or troubles you can message me!!
