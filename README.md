@@ -1,4 +1,4 @@
-# HAC-a-1.0
+# Hadoop Automated single node v2
 Hadoop Interactive Automated Installation & Confiuration (single-node) script
 
 Note: some of the commands will only run as "root" so its recommended to run the script as "root" user
