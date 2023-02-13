@@ -25,7 +25,7 @@ What the script does
 
 If you experience any bugs or troubles you can message me!!
 
-Tested on: Oracle Linux 8/9, Ubuntu 22.04, CentOS 7.9 
+Tested on: Oracle Linux 7/8/9, Ubuntu 22.04, CentOS 7.9 
 
 To run the script
 put both .sh files in a directory preferably home directory 
