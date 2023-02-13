@@ -59,7 +59,7 @@ fi
 
     else
         
-      echo "Only root may add a user to the system."    
+      echo "Please run the script as the ROOT user!!"    
   	
   continue
 
@@ -89,13 +89,13 @@ chown $username:$username /home/$username/.ssh/authorized_keys
 # HADOOP INSTALLATION & EXTRACTION
 read -p "Please Select Hadoop Installation Path: " HADOOP_INS
 
-wget -P $HADOOP_INS https://dlcdn.apache.org/hadoop/common/hadoop-3.3.3/hadoop-3.3.3.tar.gz
+wget -P $HADOOP_INS https://dlcdn.apache.org/hadoop/common/hadoop-3.3.4/hadoop-3.3.3.tar.gz
 
-sudo tar xzvf $HADOOP_INS/hadoop-3.3.3.tar.gz -C $HADOOP_INS
+sudo tar xzvf $HADOOP_INS/hadoop-3.3.4.tar.gz -C $HADOOP_INS
 
-sudo rm -f $HADOOP_INS/hadoop-3.3.3.tar.gz
+sudo rm -f $HADOOP_INS/hadoop-3.3.4.tar.gz
 
-sudo mv $HADOOP_INS/hadoop-3.3.3 $HADOOP_INS/hadoop
+sudo mv $HADOOP_INS/hadoop-3.3.4 $HADOOP_INS/hadoop
 
 sudo chown -R $username:$username $HADOOP_INS/hadoop
 
