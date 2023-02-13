@@ -1,4 +1,4 @@
-# Hadoop Automated single node v2
+# Hadoop Automated single node v2 
 Hadoop Interactive Automated Installation & Confiuration (single-node) script
 
 Note: some of the commands will only run as "root" so its recommended to run the script as "root" user
@@ -16,7 +16,7 @@ What the script does
 
   4 - Configures passwordless ssh login to the new user
 
-  5 - Installs Apache Hadoop 3.3 package 
+  5 - Installs Apache Hadoop 3.4 package 
 
   6 - Interactive configuration of hadoop 
 
@@ -25,7 +25,7 @@ What the script does
 
 If you experience any bugs or troubles you can message me!!
 
-Tested on: Oracle Linux 8/9, Ubuntu 22.04
+Tested on: Oracle Linux 8/9, Ubuntu 22.04, CentOS 7.9 
 
 To run the script
 put both .sh files in a directory preferably home directory 
